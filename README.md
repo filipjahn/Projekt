@@ -21,6 +21,7 @@ PROBLEMY:
 3. nemuzu pouzivat "main.c" ale "main.ino", ktere musi byt ve slozce "src"
 
 Knihovny mam ze stranek:
+
 https://platformio.org/lib/show/31/Adafruit%20Unified%20Sensor/installation
 https://platformio.org/lib/show/19/DHT%20sensor%20library ---- knihovna pro senzor DHT11
 
