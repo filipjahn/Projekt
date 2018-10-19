@@ -24,4 +24,5 @@ Knihovny mam ze stranek:
 
 https://platformio.org/lib/show/31/Adafruit%20Unified%20Sensor/installation
 https://platformio.org/lib/show/19/DHT%20sensor%20library ---- knihovna pro senzor DHT11
+https://create.arduino.cc/projecthub/mayooghgirish/control-ac-light-using-arduino-80c093?ref=tag&ref_id=lights&offset=191 ---- schema pro spinani žárovky pomocí arduina
 
