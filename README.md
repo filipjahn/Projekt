@@ -8,7 +8,7 @@ Závěrečný projekt- automatizované hlídání podmínek v terráriu
 
 
 
-
+Tomas Matysek neumi pracovat s gitHubem
 
 
 
