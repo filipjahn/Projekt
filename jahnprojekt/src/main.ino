@@ -13,6 +13,8 @@
 
 #define DHTPIN            5         // Pin which is connected to the DHT sensor.
 
+int led = 9;
+
 // Uncomment the type of sensor in use:
 #define DHTTYPE           DHT11     // DHT 11 
 //#define DHTTYPE           DHT22     // DHT 22 (AM2302)
@@ -26,6 +28,7 @@ DHT_Unified dht(DHTPIN, DHTTYPE);
 uint32_t delayMS;
 
 void setup() {
+  pinMode(led, OUTPUT);
   Serial.begin(9600); 
   // Initialize device.
   dht.begin();
@@ -81,4 +84,11 @@ void loop() {
     Serial.print(event.relative_humidity);
     Serial.println("%");
   }
+
+
+  sensor_t sensor;
+  if(event.temperature >= sensor.max_value){
+    digitalWrite(led, HIGH);
+  }
+
 }
