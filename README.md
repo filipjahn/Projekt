@@ -12,7 +12,8 @@ Tomas Matysek neumi pracovat s gitHubem
 
 
 
-
+https://cdimage.debian.org/debian-cd/current/i386/iso-cd/
+-*- instalace debian (debian-9.6.0-i386-xfce-CD-1.iso)
 
 
 PROBLEMY:
