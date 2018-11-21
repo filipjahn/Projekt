@@ -10,7 +10,8 @@ Závěrečný projekt- automatizované hlídání podmínek v terráriu
 
 Tomas Matysek neumi pracovat s gitHubem
 
-
+https://github.com/Kudela1/zaverecny
+-*- github Dominika- uplne dole ovladani JSON
 
 https://cdimage.debian.org/debian-cd/current/i386/iso-cd/
 -*- instalace debian (debian-9.6.0-i386-xfce-CD-1.iso)
