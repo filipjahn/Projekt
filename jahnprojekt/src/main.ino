@@ -10,6 +10,7 @@
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 #include <DHT_U.h>
+#include <MySensors.h>
 
 #define DHTPIN            5         // Pin which is connected to the DHT sensor.
 
@@ -87,7 +88,7 @@ void loop() {
 
 
   sensor_t sensor;
-  if(event.temperature >= sensor.max_value){
+  if(event.temperature > sensor.max_value){
     digitalWrite(led, HIGH);
   }
 
