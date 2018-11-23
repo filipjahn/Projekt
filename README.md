@@ -21,6 +21,7 @@ PROBLEMY:
 1. kompilace kodu
 2. kompatibilita knihoven
 3. nemuzu pouzivat "main.c" ale "main.ino", ktere musi byt ve slozce "src"
+4. povoleni usb port /dev/ttyUSB0 ...... sudo adduser student dialout....... sudo chmod 777 ttyUSB0
 
 Knihovny mam ze stranek:
 
